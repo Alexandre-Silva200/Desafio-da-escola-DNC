@@ -1,0 +1,73 @@
+@media (max-width: 868px) {
+    
+/* header */
+    header .header{
+        width: 100%;
+        padding-left: 5%;
+        margin: 0;
+ 
+    }
+
+    header .header>h1{
+        font-size: 27px;
+    }
+
+    header .header>p{
+        font-size: 18px;
+    }
+    
+/* header-inferio */
+
+    .header-inferio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-inferio>.tamanhos{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+    .header-inferio>.tamanhos>h2{
+        font-size: 27px;
+    }
+    .header-inferio>.tamanhos>p{
+        font-size: 18px;
+    }
+    /*main*/
+main{
+    padding: 0; 
+ }
+
+    /*section-flex*/
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    main>.flex>.descricao>h2{
+        font-size: 27px;
+    }
+    
+    main>.flex>.descricao>p{
+        width: 95%;
+        font-size: 18px;
+    }
+
+    main>.flex>.img>img{
+       display: flex;
+       justify-items: center;
+       align-items: center;
+        height: 500px;
+    }
+
+    /*formulario*/
+
+    .formulario>.for>form>input{
+        font-size: 18px;
+    }
+}
